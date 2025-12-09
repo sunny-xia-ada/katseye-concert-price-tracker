@@ -2,7 +2,7 @@
 
 # 🎫 Katseye Ticket Tracker
 
-A real-time ticket price monitoring dashboard built with **Python (Flask)** and **Selenium**. This tool tracks resale ticket prices across **StubHub, Vivid Seats, and SeatGeek** to help users find the best deals for sold-out events.
+A real-time ticket price monitoring dashboard built with **Python (Flask)** and **Selenium**. This tool tracks resale ticket prices across **Ticketmaster, StubHub, Vivid Seats, and SeatGeek** to help users find the best deals for sold-out events.
 
 ![Project Status](https://img.shields.io/badge/Status-Active-green)
 ![Python Version](https://img.shields.io/badge/Python-3.9%2B-blue)
