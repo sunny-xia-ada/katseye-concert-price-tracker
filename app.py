@@ -16,7 +16,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 
 # --- CONFIG ---
-SEATGEEK_CLIENT_ID = "NTQ4NTgzMTl8MTc2NTMwOTQxMC4zMzc1MTQ"
+SEATGEEK_CLIENT_ID = "############"
 URLS = {
     "SeatGeek_API": f"https://api.seatgeek.com/2/events?q=Katseye&venue.city=Seattle&client_id={SEATGEEK_CLIENT_ID}",
     "VividSeats": "https://www.vividseats.com/katseye-tickets-seattle-wamu-theater---seattle-12-9-2025--concerts-pop/production/5867054?quantity=1&maxPrice=1744&currency=USD",
