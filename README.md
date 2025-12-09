@@ -60,4 +60,6 @@ This project is for educational purposes only. Automated scraping of ticket mark
 
 [ ] Allow users to change the Target Price directly from the UI.
 
+[ ] Allow users to change the Events directly from the UI.
+
 [ ] Dockerize the application for easier deployment.
