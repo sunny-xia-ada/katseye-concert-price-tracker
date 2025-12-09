@@ -51,3 +51,13 @@ python app.py
 * Data Cleaning: It uses Regex (re) to strip currency symbols and fees, ensuring accurate integer math for price comparisons.
 
 * Database: Prices are stored in a local tickets.db SQLite database to generate historical charts.
+
+## ⚠️ Disclaimer
+This project is for educational purposes only. Automated scraping of ticket marketplaces may violate their Terms of Service. Use responsibly and do not use high-frequency request rates that could overload their servers.
+
+## 🔮 Future Improvements
+[ ] Add email/SMS notifications using Twilio or SMTP.
+
+[ ] Allow users to change the Target Price directly from the UI.
+
+[ ] Dockerize the application for easier deployment.
