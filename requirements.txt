@@ -1,0 +1,7 @@
+
+flask
+flask_apscheduler
+requests
+undetected-chromedriver
+selenium
+beautifulsoup4
