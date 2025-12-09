@@ -29,7 +29,3 @@ A real-time ticket price monitoring dashboard built with **Python (Flask)** and 
 * Python 3.9+
 * Google Chrome installed
 
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/YOUR_USERNAME/katseye-ticket-tracker.git](https://github.com/YOUR_USERNAME/katseye-ticket-tracker.git)
-cd katseye-ticket-tracker
