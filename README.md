@@ -29,3 +29,25 @@ A real-time ticket price monitoring dashboard built with **Python (Flask)** and 
 * Python 3.9+
 * Google Chrome installed
 
+### Install Dependencies
+pip install -r requirements.txt 
+
+### Configure SeatGeek API
+Get a free Client ID from the SeatGeek Developer Portal.
+
+Open app.py and replace the placeholder:
+SEATGEEK_CLIENT_ID = "YOUR_CLIENT_ID_HERE" 
+
+### Run the Application
+python app.py 
+
+### Access the dashboard at: http://127.0.0.1:5000
+
+## ⚙️ How It Works
+* API Check: The app first queries the SeatGeek API. If the API returns "null" (common on event day), it seamlessly falls back to scraping the SeatGeek website.
+
+* Scraping: It launches a controlled Chrome instance to parse prices from StubHub and Vivid Seats.
+
+* Data Cleaning: It uses Regex (re) to strip currency symbols and fees, ensuring accurate integer math for price comparisons.
+
+* Database: Prices are stored in a local tickets.db SQLite database to generate historical charts.
